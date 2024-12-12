@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F4f4f4;
+    
+}
+
+.center-side {
+    text-align: center;
+}
+
+.login-box {
+    width: 300px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.buttons button {
+    width: 45%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signin {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.signup {
+    background-color: #008CBA;
+    color: white;
+}
+
+.popup {
+    display: none; /* PopUp disembunyikan secara default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.close-btn {
+    font-size: 30px;
+    font-weight: bold;
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: black;
+}
+
+/* Menata tampilan tombol Sign Up */
+.btn.signUp {
+    background-color: #3498db; /* Warna hijau */
+    color: white;
+    padding: 10px 25px;
+    font-size: 13px;
+    border: none;
+    border-radius: 3px; /* Membuat tombol lebih melengkung */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Efek transisi */
+    text-align: center;
+}
+
+.btn.signUp a {
+    color: white;
+    text-decoration: none; /* Menghapus garis bawah */
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.btn.signUp:hover {
+    background-color: #45a049; /* Efek hover untuk mengganti warna tombol *
+}
+
+.btn.signUp:focus {
+    outline: none; /* Menghapus outline pada fokus */
+}
+
